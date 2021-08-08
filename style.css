@@ -1,0 +1,100 @@
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .content, .box-header, .header-text1, .header-text2, .content-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-header{
+    text-align: center; 
+    height: 401px;
+}
+
+.header-text1{
+    background-color: #812b2b;
+    width: 750px;
+    height: 100px;
+    color: white;
+}
+
+.header-text1 h2{
+    font-family: Hello;
+    font-size: 45px;
+    margin: 0px;
+}
+
+.header-text1 h4{
+    font-family: Calibri;
+    margin: 0px;
+}
+
+.header-text2{
+    background-color:white;
+    width: 750px;
+    height: 100px;
+}
+
+.header-text2 p, h4, .album p{
+    font-family: Calibri;
+}
+
+.header-text2 p{
+    font-style: italic;
+    margin: 5px;
+}
+
+.header-text2 h4{
+    font-size: 25px;
+    margin: 0px;
+    font-style: bold;
+}
+
+.content-text{
+    background-color: #812b2b;
+    width: 750px;
+    height: 800px;
+}
+
+.content-text h3{
+    margin: 10px;
+    color: white;
+    font-family: 'Hello';
+    font-size: 35px;
+}
+
+.content-album{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
+}
+
+.album{
+    display: flex;
+    width: 200px;
+    height: 240px;
+    flex-direction: column;
+}
+
+.album p{
+    text-align: center;
+    font-style: bold;
+    color: white;
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: 'Hello';
+    src: url('Fonts/hello/Hello.otf');
+}
+
+@font-face {
+    font-family: 'Grethania';
+    src: url('Fonts/grethania_script/Grethania\ Script\ Reguler.otf');
+}
